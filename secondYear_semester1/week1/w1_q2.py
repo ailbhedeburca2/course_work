@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+#Q2. Write a function move_vow() that takes a string as input and
+#returns the vowels first and consonants second.Vowels are
+# 'aeiouAEIOU'.
+
 s = 'This is DCU!'
 
 def move_vow(s):

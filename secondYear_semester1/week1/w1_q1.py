@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+#Q1. Write a function q1_sum() that takes a list as input
+#and returns the sum of all even elements.
+
 lists = [[1,0,2], [5,5,7], [9,4,3]]
 
 def q1_sum(lists):

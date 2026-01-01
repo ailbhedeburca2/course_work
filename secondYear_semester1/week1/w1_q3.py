@@ -1,5 +1,16 @@
 #!/usr/bin/env python3
 
+#Q3. Write a class called Memories with the following method:
+
+#remember(): Recalls the value for the given attribute else prints
+#False.
+
+#Example:
+
+#person1 = Memories(name='Tom', age=32, salary=50000)
+#person1.remember('salary') ➞ 50000
+#person1.remember('email') ➞ False
+
 class Memories(object):
 
   def __init__(self, name, age, salary):
