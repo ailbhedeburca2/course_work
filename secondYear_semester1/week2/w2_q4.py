@@ -1,0 +1,85 @@
+#!/usr/bin/env python3
+
+#Q4. Banking System (Part 1). Implement a simple banking system where different types of bank accounts (e.g., SavingsAccount, CurrentAccount) share common behaviors such as depositing and withdrawing money but may have their own unique features.
+
+#Requirements:
+#Create a base class BankAccount with common methods:
+
+#deposit(amount): Add money to the account.
+#withdraw(amount): Deduct money from the account if there are sufficient funds.
+#get_balance(): Return the current balance.
+
+#Create two subclasses:
+
+#SavingsAccount: May include an additional feature like add_interest() to apply interest to the balance.
+#CurrentAccount: May allow overdrafts up to a certain limit.
+
+#Define at least 4 instance variables in the base class that are relevant to any account type. These instance variables should not be directly accessed from outside the class.
+
+#Ensure that common methods like deposit(), withdraw(), and get_balance() are implemented in the base class and reused in the subclasses.
+
+class BankAccount:
+
+    def __init__(self):
+        self._account_number = None
+        self._owner_name = None
+        self._balance = 0
+        self._active = True
+
+    def deposit(self, value):
+        self._balance += value
+
+    def withdraw(self, value):
+        if self._balance - value >= 0:
+            self._balance -= value
+        else:
+            print('Insufficient Funds')
+
+    def get_balance(self):
+        return f'Current balance: ${self._balance:.2f}'
+
+class SavingsAccount(BankAccount):
+
+    def __init__(self):
+        super().__init__()
+        self.interst = 0.02
+
+    def add_interest(self):
+        self._balance *= self.interst
+
+class CurrentAccount(BankAccount):
+
+    def __init__(self):
+        super().__init__()
+        self.limit = -100
+
+    def withdraw(self, amount):
+        if self._balance - amount < self.limit:
+            print(f'Over draft limit exeeded\nYou can only withdraw up to ${self._balance - self.limit}')
+        else:
+            self._balance -= amount
+
+
+ba = BankAccount()
+sa = SavingsAccount()
+ca = CurrentAccount()
+
+ba.deposit(500)
+print(ba.get_balance())
+ba.withdraw(200)
+print(ba.get_balance())
+ba.withdraw(350)
+
+sa.deposit(500)
+print(sa.get_balance())
+sa.add_interest()
+print(sa.get_balance())
+
+ca.deposit(500)
+print(ca.get_balance())
+ca.withdraw(550)
+print(ca.get_balance())
+ca.deposit(100)
+print(ca.get_balance())
+ca.withdraw(200)
+
