@@ -1,5 +1,32 @@
 #!/usr/bin/env python3
 
+#1. Create a Queue class using the approach shown in class, and add the following functionalities to it:
+
+#Reversing a Queue recursively.
+#Find the minimum value in the queue recursively.
+
+#2. Write a function using the queue data structure to generate a sequence of binary numbers from 1 to n. 
+
+#Example:
+
+#Given n=16 the binary sequence is: 1 10 11 100 101 110 111 1000 1001 1010 1011 1100 1101 1110 1111 10000
+
+#3.  Create a Stack class using the approach described in class. A letter means push and an asterisk means pop in the sequence below.  Write a script to show the sequence of values returned by the pop operations when this sequence of operations is performed on an initially empty LIFO stack.
+
+#'EAS*Y*QUE***ST***IO*N***' ➞ ['S', 'Y', 'E', 'U', 'Q', 'T', 'S', 'A', 'O', 'N', 'I', 'E']
+
+#4. A letter means put and an asterisk means get in the following sequence. Write a script to show the sequence of values returned by the get operation when this sequence of operations is performed on an initially empty FIFO queue.
+
+#'EAS*Y*QUE***ST***IO*N***' ➞ ['E', 'A', 'S', 'Y', 'Q', 'U', 'E', 'S', 'T', 'I', 'O', 'N']
+
+#5. Write a script that reads a sequence of characters and prints them in reverse order. Use a stack.
+
+#6. Create a function to evaluate the following postfix expression using Stack data structure.
+
+#"1432^*+147--+" ➞ 41
+
+#7. Create a double ended queue class using the approach described in class. A palindrome is a word that is spelt the same backwards and forwards, such as "Bob" or "Navan".  Create an algorithm that verifies if a given word is a palindrome using the double ended queue.
+
 class Queue:
     def __init__(self):
         self.list = []
