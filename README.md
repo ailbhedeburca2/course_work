@@ -1,0 +1,3 @@
+In this repository you will find all my work from my Computer Science course as well as persnoal projects.
+
+Link to DIME wbsite: https://student.computing.dcu.ie/~thelma.clarke24/groupac_part3/index.html
