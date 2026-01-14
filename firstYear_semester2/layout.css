@@ -1,0 +1,592 @@
+/*######## AILBHE ########*/
+
+.navbar-brand {
+  font-size: 75px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  color: #F83D3D;
+  text-decoration-color: #F83D3D;
+  }
+
+.container-header {
+  background: rgb(248,61,61);
+  background: linear-gradient(28deg, rgba(248,61,61,0.5506535377823004) -2%, rgba(248,61,61,0) 100%);  
+  height: 600px;   
+  }
+
+.container-reveiws {
+  background: #8eb7f5 ; 
+  height: 580px;
+  }
+
+
+h1 {
+  font-size: 150px;
+  font-weight: 500;
+  }
+
+.payment-h1 {
+  font-size: 100px;
+  font-weight: 400px;
+  text-align: center;
+  }
+
+h2 {
+  font-size: 50px;
+  font-weight: 500;
+  }
+
+h3 {
+  font-size: 70px;
+  font-weight: 500;
+  }  
+
+h4 {
+  font-size: 60px;
+  font-weight: 180px;
+  text-align: center;
+  }
+
+h5 {
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  }
+
+h6 {
+  font-size: 40px;
+  font-weight: 400px;
+  text-align: center;
+  }
+
+
+.card-body  {
+  height: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.card-text {
+  text-align: left;
+  margin: 7px;
+  }
+
+.card-title {
+  color: #F83D3D;
+  font-size: 20px;
+  text-align: left;
+  margin: 7px;
+  font-weight: 600;
+  }
+
+.card-subtitle {
+  font-size: 37px;
+  color: black;
+  font-weight: 570;
+  }
+
+.checked {
+  color: orange;
+  }
+
+.button {
+  background-color: #F83D3D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 25px;
+}
+
+.button:hover {opacity: 1}  
+
+.button1 {
+  background-color: #F83D3D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  text-decoration: none;
+  opacity: 1;
+  transition: 0.3s;
+  border-radius: 25px;
+  font-size: 25px;
+  }
+
+.button1:hover {opacity: 0.6}
+  
+.button-btn2 {
+  background-color: #F83D3D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 20px;
+  }
+ 
+  
+.button-btn-btn3 {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 11px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 25px;
+  }
+
+.button-btn-btn3:hover {opacity: 1}
+
+/*######## log in page ########*/
+form {
+  border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #F83D3D;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #F83D3D;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 1px 1px 0;
+  height: 470px;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+/*###### end of log in page ########*/
+
+/* ######## extra #######*/
+.form-control me-2 {
+  color: #F83D3D;
+  }
+
+.right {
+  text-align: right;
+  }
+ 
+
+.bg-color {
+  text-decoration-color: white;
+}
+/*####### end of extra #######*/
+
+/*######## END OF AILBHE ########*/
+
+
+/* ############################## START OF ABOUT containers - Thelma ################################*/
+
+.container-header-thelma {
+  background: rgb(248,61,61);
+  background: linear-gradient(28deg, rgba(248,61,61,0.5506535377823004) -2%, rgba(248,61,61,0) 100%);  
+  height: 600px;   
+  }
+
+.container-grade2 {
+background: rgb(248,61,61);
+background: linear-gradient(152deg, rgba(248,61,61,0.5506535377823004) -2%, rgba(248,61,61,0) 100%);  
+}
+
+.container-grade1 {
+  background: rgb(40, 40, 40);
+  background: linear-gradient(160deg, rgba(68, 119, 178, 0.8) 0%, rgba(248, 61, 61, 0) 100%);
+  }
+
+/* Container for both text and image */
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping on small screens */
+  align-items: center;
+  justify-content: space-between; /* Space between text & image */
+  padding: 20px;
+}
+
+/* Text section */
+.text-content {
+  flex: 1; /* Takes available space */
+  min-width: 300px; /* Prevents collapsing on small screens */
+  padding: 20px;
+}
+
+/* Image section */
+.image-content {
+  flex: 1; /* Takes available space */
+  min-width: 300px; /* Ensures image doesn't get too small */
+  display: flex;
+  justify-content: center; /* Center image */
+}
+
+.image-content img {
+  max-width: 90%; /* Prevents oversized images */
+  height: auto;
+  border-radius: 10px; /* Optional rounded corners */
+}
+
+/* Responsive: Stack text and image on small screens */
+@media (max-width: 768px) {
+  .content-wrapper {
+      flex-direction: column; /* Stacks text and image */
+      text-align: center;
+  }
+}
+  
+.container-grade3 {
+  background: rgb(239, 160, 2);
+  background: linear-gradient(152deg, rgba(239, 160, 2, 0.551) -2%, rgba(18, 17, 14, 0) 100%);  
+  }
+/* #fff0d2 */
+
+.container-hr {
+  display: flex;
+  justify-content: center;
+}
+
+.container-hr img {
+  display: block;
+  margin: auto;
+}
+
+
+.button1-thelma { 
+  background-color: #F8E0E0;
+  border: 2px solid #F83D3D; 
+  color: #F83D3D; 
+  padding: 16px 32px; 
+  text-align: center; 
+  font-size: 25px; 
+  margin: 4px 2px; 
+  text-decoration: none; 
+  border-radius: 25px; 
+  display: block; 
+  width: fit-content; 
+  position: absolute; 
+  left: 20px; 
+  transition: all 0.3s ease-in-out; 
+}
+
+.button1-thelma:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a soft shadow on hover */
+  opacity: 1; /* Ensures full visibility */
+  background-color: #F83D3D;
+  border: 2px solid #F8E0E0; 
+  color: #F8E0E0; 
+}
+
+/* ############################## START OF ABOUT CSS - Thelma ################################*/
+
+
+/* ############################## START OF ABOUT CAROUSEL - Thelma ################################*/
+
+.carousel-thelma { 
+  width: 100%;
+  max-width: 1200px; /* Ensures it doesn’t stretch too much on large screens */
+  max-height: 80vh; /* Limits height to 80% of the viewport */
+  margin: 0 auto; 
+
+} 
+
+.carousel-thelma::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.2);
+  opacity: 0.55;
+}
+
+.carousel-thelma img {
+  width: 100%;
+  height: auto;
+  max-height: 80vh; 
+  object-fit: contain; 
+}
+.carousel-caption-thelma {
+  position: absolute;
+  bottom: 10px; /* Moves text closer to the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%; /* Ensures text doesn't stretch too wide */
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Optional: Adds a semi-transparent background for readability */
+  padding: 10px;
+  border-radius: 8px; /* Optional: Softens the edges */
+  color: white;
+  } 
+
+  @media (max-width: 768px) {
+    .carousel-thelma {
+      max-height: 60vh; /* Reduces height for smaller screens */
+    }
+    
+    .carousel-thelma img {
+      max-height: 60vh;
+    }
+  
+    .carousel-caption-thelma {
+      width: 90%; /* Makes captions slightly wider */
+      font-size: 14px; /* Smaller text on small screens */
+    }
+  }
+/* ############################## END OF ABOUT CAROUSEL - Thelma ################################*/
+
+/* ############################## START OF FOOTER STYLING - Thelma ################################*/
+/* Footer container styling */
+.footer-thelma {
+  margin-top: 50px;
+  width: 100%;
+  padding: 50px 5%;
+  background-color: #2C3E50; 
+  /* 2C3E50 1A1A1A 3D3D3D 661F1F*/
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/* Column styling for better spacing */
+.footer-thelma div {
+  flex: 1;
+  margin: 10px;
+  min-width: 250px;
+}
+
+.footer-thelma div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 26px;
+}
+
+.footer-thelma div h4{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.col-1 a{
+  display: block;
+  text-decoration: none;
+  /*
+  color: ;
+  */
+  margin-bottom: 5px;
+}
+
+.col-2 {
+  flex-grow: 2;
+}
+
+.form-thelma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: none; /* Removes the default border */
+  background-color: transparent; 
+  outline: none; /* Removes focus outline */
+  color: white; /* Ensures text is visible on dark backgrounds */
+}
+
+.form-thelma input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.form-thelma button {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-link {
+  margin: 0 10px;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: #ff6600;
+}
+
+@media (max-width: 768px) {
+  .footer-thelma {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-thelma div {
+      text-align: center;
+  }
+}
+
+/*Take me to the top button Thelma*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  outline: none; /* Remove outline */
+  background-color: #F8E0E0;
+  border: 2px solid #F83D3D; 
+  color: #F83D3D; 
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  width: auto; /* FIX: Prevent full-width issue */
+}
+
+#myBtn:hover {
+  background-color: #F83D3D;
+  border: 2px solid #F8E0E0; 
+  color: #F8E0E0; 
+}
+  
+/* ############################## END OF FOOTER - Thelma - STYLING ################################*/
+/* Michaels */
+#ipm{
+  color: rgb(0, 255, 26);
+  background-color: rgb(209, 83, 146);
+  text-align: center;
+}
+#ipy{
+  color: rgb(10, 155, 203);
+  background-color: beige;
+  text-align: center;
+}
+#threeyear{
+  color: rgb(37, 230, 221);
+  background-color: rgb(150, 1, 150);
+  text-align: center;
+}
+#fp{
+  color: rgb(255, 151, 110);
+  background-color: rgb(94, 94, 94);
+  text-align: center;
+}
+.mcfp-h4{
+  text-align: center;
+}
+.mcfp{
+  font-size: 100px;
+  color: black;
+}
+.graph{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  height: 50%;
+  width: 50%;
+}
+.mc{
+  background-color: wheat;
+}
+.mc p{
+  padding: 10px;
+}
+.card {
+  min-height: 100%;
+  height: auto; /* Allow cards to expand naturally */
+}
+.container-header-mc{
+  background: rgb(248,61,61);
+  background: linear-gradient(28deg, rgba(248,61,61,0.5506535377823004) -2%, rgba(248,61,61,0) 100%);  
+  height: 100%;   
+  }
+.card-body {
+  height: auto; /* Remove fixed height */
+  padding: 10px; /* Add spacing */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card-title h5{ 
+  font-size: 50px; 
+  font-family: "Roboto Mono", monospace; 
+  font-weight: 500; 
+}
